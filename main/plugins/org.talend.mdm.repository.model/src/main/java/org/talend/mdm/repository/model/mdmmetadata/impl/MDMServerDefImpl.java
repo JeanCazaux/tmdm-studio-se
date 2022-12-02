@@ -532,7 +532,7 @@ public class MDMServerDefImpl extends AbstractMetadataObjectImpl implements MDMS
             FileInputStream input = new FileInputStream(file);
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document doc = documentBuilder.parse(new InputSource(input));
             NodeList elements = doc.getElementsByTagName("soap:address"); //$NON-NLS-1$

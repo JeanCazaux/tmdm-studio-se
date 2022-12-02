@@ -139,7 +139,7 @@ public class SchematronExpressBuilder {
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            factory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             DocumentBuilder builder = factory.newDocumentBuilder();
             org.w3c.dom.Document document;
             if (isSchematron) {

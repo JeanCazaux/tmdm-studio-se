@@ -881,7 +881,7 @@ public class UtilMockTest {
             documentBuilderFactory.setNamespaceAware(true);
             documentBuilderFactory.setValidating(false);
             documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(getClass().getResourceAsStream("Product_0.1.xsd"));
             XSDSchema schema = XSDSchemaImpl.createSchema(document.getDocumentElement());

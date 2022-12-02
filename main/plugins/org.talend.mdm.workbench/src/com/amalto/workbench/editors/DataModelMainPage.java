@@ -1827,7 +1827,7 @@ public class DataModelMainPage extends EditorPart implements IGotoMarker {
         documentBuilderFactory.setNamespaceAware(true);
         documentBuilderFactory.setValidating(false);
         documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-        documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+        documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
         InputSource source = new InputSource(new StringReader(schema));
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
         try {
@@ -2104,7 +2104,7 @@ public class DataModelMainPage extends EditorPart implements IGotoMarker {
         documentBuilderFactory.setNamespaceAware(true);
         documentBuilderFactory.setValidating(false);
         documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-        documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+        documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
 
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
         Document document = documentBuilder.parse(source);

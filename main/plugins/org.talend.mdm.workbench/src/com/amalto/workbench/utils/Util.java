@@ -687,7 +687,7 @@ public class Util {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             factory.setNamespaceAware(true);
             factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            factory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             DocumentBuilder builder = factory.newDocumentBuilder();
             DOMImplementation impl = builder.getDOMImplementation();
             Document namespaceHolder = impl.createDocument(namespace, (prefix == null ? "" : prefix + ":") + elementName, null);//$NON-NLS-1$//$NON-NLS-2$
@@ -715,7 +715,7 @@ public class Util {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             documentBuilderFactory.setNamespaceAware(true);
             documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             documentBuilderFactory.setValidating((schema != null));
             documentBuilderFactory.setAttribute(IXMLConstants.SUN_SCHEMA_LANGUAGE, "http://www.w3.org/2001/XMLSchema");//$NON-NLS-1$
             if (schema != null) {
@@ -2266,7 +2266,7 @@ public class Util {
             documentBuilderFactory.setNamespaceAware(true);
             documentBuilderFactory.setValidating(false);
             documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+            documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             DocumentBuilder documentBuilder;
             XSDSchema schema = null;
             InputSource source = null;
@@ -2893,7 +2893,7 @@ public class Util {
         documentBuilderFactory.setNamespaceAware(true);
         documentBuilderFactory.setValidating(false);
         documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-        documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+        documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
         StringReader reader = new StringReader(schema);
         InputSource source = new InputSource(new StringReader(schema));
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();

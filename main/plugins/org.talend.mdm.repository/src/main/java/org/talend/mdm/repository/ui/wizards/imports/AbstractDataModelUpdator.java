@@ -103,7 +103,7 @@ public abstract class AbstractDataModelUpdator {
     protected DocumentBuilder getDocumentBuilder() throws ParserConfigurationException {
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-        documentBuilderFactory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+        documentBuilderFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
         documentBuilderFactory.setNamespaceAware(true);
         documentBuilderFactory.setValidating(false);
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();

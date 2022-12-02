@@ -62,7 +62,7 @@ public class XMLValidator {
             factory.setValidating(true);
             try {
                 factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-                factory.setFeature(IXMLConstants.DISALLOW_DOCTYPE_DECL, true);
+                factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             } catch (ParserConfigurationException e) {
                 LOG.error(e.getMessage(), e);
             }
