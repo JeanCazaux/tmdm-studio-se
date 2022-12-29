@@ -13,7 +13,7 @@
 	<packaging>eclipse-plugin</packaging>
 
 	<properties>
-		<cxf.version>3.4.7</cxf.version>
+		<cxf.version>3.5.5</cxf.version>
 	</properties>
 
 	<dependencies>

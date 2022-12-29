@@ -4,22 +4,22 @@
 	<classpathentry exported="true" kind="lib" path="lib/txw2-2.3.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jakarta.xml.ws-api-2.3.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/wsdl4j-1.6.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-core-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-soap-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-xml-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-databinding-jaxb-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-features-clustering-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxrs-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxws-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-simple-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-rs-client-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-saml-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-transports-http-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-addr-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-wsdl-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-policy-3.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-security-3.4.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-core-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-soap-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-xml-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-databinding-jaxb-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-features-clustering-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxrs-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxws-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-simple-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-rs-client-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-saml-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-transports-http-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-addr-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-wsdl-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-policy-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-security-3.5.5.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/istack-commons-runtime-3.0.12.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jakarta.activation-1.2.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jakarta.activation-api-1.2.2.jar"/>
