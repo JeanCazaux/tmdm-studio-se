@@ -16,20 +16,20 @@
 	<classpathentry exported="true" kind="lib" path="lib/woodstox-core-6.2.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/wsdl4j-1.6.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/xmlschema-core-2.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-core-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-soap-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-xml-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-databinding-jaxb-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-features-clustering-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxws-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-simple-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-saml-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-transports-http-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-addr-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-wsdl-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-policy-3.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-security-3.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-core-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-soap-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-bindings-xml-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-databinding-jaxb-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-features-clustering-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-jaxws-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-frontend-simple-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-security-saml-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-transports-http-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-addr-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-wsdl-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-policy-3.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/cxf-rt-ws-security-3.5.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
