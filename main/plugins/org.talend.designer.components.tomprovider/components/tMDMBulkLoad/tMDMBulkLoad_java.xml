@@ -138,6 +138,13 @@
                     REQUIRED="true"
                     />
                 <IMPORT
+                    NAME="httpcore5-h2-5.2.jar"
+                    MODULE="httpcore5-h2-5.2.jar"
+                    MVN="mvn:org.apache.httpcomponents.core5/httpcore5-h2/5.2"
+                    UrlPath="platform:/base/plugins/org.talend.libraries.apache.http/lib/httpcore5-h2-5.2.jar"
+                    REQUIRED="true"
+                    />
+                <IMPORT
                     NAME="javax.annotation-api-1.3"
                     MODULE="javax.annotation-api-1.3.jar"
                     MVN="mvn:javax.annotation/javax.annotation-api/1.3"
