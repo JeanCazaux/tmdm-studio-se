@@ -69,7 +69,6 @@ Bundle-ClassPath: .,
  META-INF/lib/json-20090211.jar,
  META-INF/lib/ezmorph-1.0.jar,
  META-INF/lib/bulkloadclient.jar,
- META-INF/lib/dtdparser121.jar,
  META-INF/lib/jaxws-rt-2.3.0.jar
 Export-Package: com.amalto.workbench,
  com.amalto.workbench.actions,
