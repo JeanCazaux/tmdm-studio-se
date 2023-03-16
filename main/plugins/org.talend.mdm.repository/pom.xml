@@ -30,6 +30,11 @@
 								<artifactId>xstream</artifactId>
 								<version>1.4.20</version>
 							</artifactItem>
+							<artifactItem>
+								<groupId>org.codehaus.castor</groupId>
+								<artifactId>castor</artifactId>
+								<version>1.1</version>
+							</artifactItem>
 						</artifactItems>
 					</configuration>
 				</execution>

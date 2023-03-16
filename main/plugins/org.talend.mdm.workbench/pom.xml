@@ -19,7 +19,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
-		<version>3.0.0</version>
+                <version>3.0.0</version>
                 <configuration>
                     <filesets>
                         <fileset>
@@ -36,7 +36,124 @@
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>2.8</version>
                 <executions>
-                    <!-- Unzip Eclipse artifacts -->
+                    <execution>
+						<id>copy-maven-repository</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${bulkload.dir}</outputDirectory>
+							<artifactItems>
+								<artifactItem>
+									<groupId>org.codehaus.castor</groupId>
+									<artifactId>castor</artifactId>
+									<version>1.1</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.apache.james</groupId>
+									<artifactId>apache-mime4j</artifactId>
+									<version>0.6</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>commons-digester</groupId>
+									<artifactId>commons-digester</artifactId>
+									<version>1.5</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>dtdparser</groupId>
+									<artifactId>dtdparser</artifactId>
+									<version>1.21</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>net.sf.ezmorph</groupId>
+									<artifactId>ezmorph</artifactId>
+									<version>1.0</version>
+								</artifactItem>
+								<artifactItem>
+									<!-- jakarta-oro renamed to oro -->
+									<groupId>oro</groupId>
+									<artifactId>oro</artifactId>
+									<version>2.0.8</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>com.sun.xml.ws</groupId>
+									<artifactId>jaxws-rt</artifactId>
+									<version>2.3.0</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.json</groupId>
+									<artifactId>json</artifactId>
+									<version>20090211</version>
+								</artifactItem>
+								<artifactItem>
+									<!-- relaxngDatatype renamed -->
+									<groupId>relaxngDatatype</groupId>
+									<artifactId>relaxngDatatype</artifactId>
+									<version>20020414</version>
+								</artifactItem>
+								<artifactItem>
+									<!-- resolver renamed to xml-resolver -->
+									<groupId>xml-resolver</groupId>
+									<artifactId>xml-resolver</artifactId>
+									<version>1.2</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>javax.xml.soap</groupId>
+									<artifactId>saaj-api</artifactId>
+									<version>1.3.4</version>
+								</artifactItem>
+								<artifactItem>
+									<!-- upgrade 1.2 to 1.3.28 -->
+									<groupId>com.sun.xml.messaging.saaj</groupId>
+									<artifactId>saaj-impl</artifactId>
+									<version>1.3.28</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>sax</groupId>
+									<artifactId>sax</artifactId>
+									<version>2.0.1</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>xalan</groupId>
+									<artifactId>serializer</artifactId>
+									<version>2.7.1</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>com.thaiopensource</groupId>
+									<artifactId>trang</artifactId>
+									<version>20081028</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>wsdl4j</groupId>
+									<artifactId>wsdl4j</artifactId>
+									<version>1.5.1</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>xerces</groupId>
+									<artifactId>xercesImpl</artifactId>
+									<version>2.12.0</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>xerces</groupId>
+									<artifactId>xercesSamples</artifactId>
+									<version>2.8.0</version>
+								</artifactItem>
+								<artifactItem>
+									<!-- upgrade 20041122 to 2013.6.1 -->
+									<groupId>net.java.dev.msv</groupId>
+									<artifactId>xsdlib</artifactId>
+									<version>2013.6.1</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>commons-lang</groupId>
+									<artifactId>commons-lang</artifactId>
+									<version>2.1</version>
+								</artifactItem>
+							</artifactItems>
+						</configuration>
+					</execution>
+					<!-- Unzip Eclipse artifacts -->
                     <execution>
                         <id>unpack-bulkload-jar</id>
                         <phase>generate-sources</phase>
@@ -82,7 +199,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho.version}</version>
