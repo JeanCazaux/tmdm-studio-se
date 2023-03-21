@@ -3,7 +3,8 @@
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/jaxws-rt-2.3.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/bulkloadclient.jar" sourcepath="/org.talend.mdm.bulkload.client"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/ezmorph-1.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="META-INF/lib/json-20090211.jar"/>
+
+	<classpathentry exported="true" kind="lib" path="META-INF/lib/json-20230227.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/oro-2.0.8.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/commons-lang-2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/xml-resolver-1.2.jar"/>

@@ -13,9 +13,16 @@
     <properties>
       <bulkload.dir>${project.basedir}/META-INF/lib</bulkload.dir>
     </properties>
-  
+    <dependencies>
+    	<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230227</version>
+		</dependency>
+    </dependencies>
 	<build>
-		<plugins>  
+		<plugins>
+			
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -31,6 +38,7 @@
                     </filesets>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -171,6 +179,23 @@
                                     <outputDirectory>${bulkload.dir}</outputDirectory>
                                     <includes>org.talend.mdm.bulkload.client*.jar</includes>
                                 </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-json</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+								<artifactItem>
+									<groupId>org.json</groupId>
+									<artifactId>json</artifactId>
+									<version>20230227</version>
+									<outputDirectory>${bulkload.dir}</outputDirectory>
+								</artifactItem>
                             </artifactItems>
                         </configuration>
                     </execution>
