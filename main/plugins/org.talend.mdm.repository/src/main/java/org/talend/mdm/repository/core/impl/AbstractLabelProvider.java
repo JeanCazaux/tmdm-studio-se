@@ -14,7 +14,6 @@ package org.talend.mdm.repository.core.impl;
 
 import org.eclipse.jface.resource.JFaceResources;
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Font;
 import org.eclipse.swt.graphics.FontData;
 import org.eclipse.swt.graphics.Image;
@@ -45,10 +44,6 @@ public abstract class AbstractLabelProvider implements IRepositoryNodeLabelProvi
 
     private static Image IMG_OPEN_FOLDER = EclipseResourceManager
             .getImage(RepositoryPlugin.PLUGIN_ID, "icons/directory-open.png"); //$NON-NLS-1$
-
-    private static final Color COLOR_GREY = EclipseResourceManager.getColor(SWT.COLOR_DARK_GRAY);
-
-    private static final Color COLOR_BLACK = EclipseResourceManager.getColor(SWT.COLOR_BLACK);
 
     private static FontData defaultFontData = JFaceResources.getDefaultFont().getFontData()[0];
 
@@ -136,13 +131,6 @@ public abstract class AbstractLabelProvider implements IRepositoryNodeLabelProvi
 
     protected String getConainerItemText(Item item) {
         return ((ContainerItem) item).getLabel();
-    }
-
-    public Color getForeground(Object element) {
-        if (isSystemServerObjectItem(element)) {
-            return COLOR_GREY;
-        }
-        return COLOR_BLACK;
     }
 
     public Font getFont(Object element) {

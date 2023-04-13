@@ -12,7 +12,6 @@
 // ============================================================================
 package org.talend.mdm.repository.core;
 
-import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Font;
 import org.eclipse.swt.graphics.Image;
 import org.talend.core.model.repository.ERepositoryObjectType;
@@ -30,8 +29,6 @@ public interface IRepositoryNodeLabelProvider {
     public Image getImage(Object element);
 
     public String getDescription(Object anElement);
-
-    public Color getForeground(Object element);
 
     public Font getFont(Object element);
     //

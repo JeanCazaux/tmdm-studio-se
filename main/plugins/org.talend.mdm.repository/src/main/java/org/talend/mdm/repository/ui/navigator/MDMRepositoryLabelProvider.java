@@ -122,10 +122,6 @@ public class MDMRepositoryLabelProvider extends ColumnLabelProvider implements I
 
     @Override
     public Color getForeground(Object element) {
-        IRepositoryNodeLabelProvider provider = getLabelProvider(element);
-        if (provider != null) {
-            return provider.getForeground(element);
-        }
         return null;
     }
 
