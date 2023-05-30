@@ -380,6 +380,7 @@ public class DataClusterBrowserMainPage extends AMainPage implements IXObjectMod
                 }
                 UpdateAutoIncrementDialog dialog = new UpdateAutoIncrementDialog(shell, entityToAutoIncrementValues);
                 if (dialog.open() == IDialogConstants.OK_ID) {
+                    conent = getAutoIncrementRecord(service);//in case other changes modified the content during dialog open
                     String updatedContent = updateAutoIncrement(dataContainer, conent, entityToRevisions, dialog.getResults());
 
                     saveAutoIncrement(service, updatedContent);
