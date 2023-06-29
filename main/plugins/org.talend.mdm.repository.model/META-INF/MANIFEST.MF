@@ -13,7 +13,9 @@ Require-Bundle: org.eclipse.core.runtime,
  org.talend.cwm.mip,
  org.talend.model,
  org.talend.mdm.workbench,
- org.talend.dataquality
+ org.talend.dataquality,
+ org.eclipse.gmf.runtime.notation,
+ org.apache.log4j
 Bundle-ActivationPolicy: lazy
 Eclipse-RegisterBuddy: org.talend.testutils
 Export-Package: org.talend.mdm.repository.model.mdmmetadata,

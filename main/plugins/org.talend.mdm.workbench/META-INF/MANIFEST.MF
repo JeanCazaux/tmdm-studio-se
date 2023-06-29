@@ -47,7 +47,12 @@ Require-Bundle: org.eclipse.ui,
  org.talend.libraries.dom4j-jaxen,
  javax.mail;bundle-version="1.4.0",
  javax.activation;bundle-version="1.1.0",
- org.apache.xerces
+ org.apache.xerces,
+ org.talend.studio.studio-utils,
+ org.talend.utils,
+ org.apache.commons.codec,
+ org.apache.log4j,
+ org.apache.commons.lang3
 Eclipse-AutoStart: true
 Eclipse-RegisterBuddy: org.talend.testutils
 Bundle-ClassPath: .,

@@ -6,4 +6,5 @@ Bundle-Version: 8.8.8.qualifier
 Fragment-Host: org.talend.mdm.repository.validate;bundle-version="7.2.1"
 Require-Bundle: org.talend.testutils,
  org.hamcrest,
- org.eclipse.osgi.services
+ org.eclipse.osgi.services,
+ org.junit

@@ -22,7 +22,10 @@ Require-Bundle: org.eclipse.ui,
  org.talend.mdm.repository.model,
  org.talend.mdm.workbench,
  org.talend.repository,
- org.talend.mdm.ws;resolution:=optional
+ org.talend.mdm.ws;resolution:=optional,
+ org.eclipse.core.resources,
+ org.talend.cwm.mip,
+ org.talend.studio.studio-utils
 Bundle-ActivationPolicy: lazy
 Eclipse-RegisterBuddy: org.talend.testutils
 Export-Package: org.talend.mdm.workbench.serverexplorer.console,
