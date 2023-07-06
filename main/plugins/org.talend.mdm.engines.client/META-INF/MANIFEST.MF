@@ -26,7 +26,8 @@ Require-Bundle: org.apache.commons.httpclient,
  org.eclipse.ui.navigator,
  org.talend.commons.runtime,
  org.talend.common.ui.runtime,
- org.talend.cwm.mip
+ org.talend.cwm.mip,
+ org.eclipse.emf.ecore
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: .Talend SA.
 Bundle-ClassPath: .

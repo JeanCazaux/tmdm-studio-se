@@ -59,13 +59,17 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore.xmi,
  org.apache.commons.lang,
  org.talend.cwm.mip,
- org.talend.repository.view
+ org.talend.repository.view,
+ org.apache.commons.codec
 Bundle-ActivationPolicy: lazy
 Eclipse-RegisterBuddy: org.talend.testutils
 Bundle-ClassPath: .,
  META-INF/lib/castor-core-1.3.3.jar,
  META-INF/lib/castor-xml-1.3.3.jar,
- META-INF/lib/xstream-1.4.20.jar
+ META-INF/lib/xstream-1.4.20.jar,
+ META-INF/lib/jakarta.xml.bind-api-2.3.3.jar,
+ META-INF/lib/jakarta.jws-api-2.1.0.jar,
+ META-INF/lib/jakarta.xml.ws-api-2.3.3.jar
 Export-Package: org.talend.mdm.repository.core,
  org.talend.mdm.repository.core.bridge,
  org.talend.mdm.repository.core.command,
