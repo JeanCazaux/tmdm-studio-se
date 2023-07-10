@@ -77,23 +77,12 @@ public class MDMImportItemsWizardPage extends ImportItemsWizardPage {
 
     @Override
     protected boolean isEnableForExchange() {
-        return true;
+        return false;
     }
 
     @Override
     protected void createArchiveSelectionArea(Composite selectionArea) {
         super.createArchiveSelectionArea(selectionArea);
-        Listener[] listeners = fromExchangeButton.getListeners(SWT.Selection);
-        // remove
-        fromExchangeButton.removeListener(SWT.Selection, listeners[0]);
-        fromExchangeButton.removeListener(SWT.DefaultSelection, listeners[0]);
-        fromExchangeButton.addSelectionListener(new SelectionAdapter() {
-
-            @Override
-            public void widgetSelected(SelectionEvent e) {
-                exchangeImport();
-            }
-        });
     }
 
     @Override

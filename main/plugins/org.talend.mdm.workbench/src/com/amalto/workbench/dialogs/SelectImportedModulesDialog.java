@@ -299,44 +299,6 @@ public class SelectImportedModulesDialog extends Dialog {
             exAdapter.createDialogArea(compositeBtn);
         }
 
-        Button impXSDFromExchange = new Button(compositeBtn, SWT.PUSH | SWT.FILL);
-        impXSDFromExchange.setLayoutData(new GridData(SWT.FILL, SWT.NONE, false, false, 1, 1));
-        impXSDFromExchange.setText(Messages.ImportFromExchangeServer);
-        impXSDFromExchange.setToolTipText(Messages.ImportSchemaFromServer);
-        impXSDFromExchange.addSelectionListener(new SelectionListener() {
-
-            @Override
-            public void widgetDefaultSelected(SelectionEvent e) {
-            }
-
-            @Override
-            public void widgetSelected(SelectionEvent e) {
-                StringBuffer repository = new StringBuffer();
-                ImportExchangeOptionsDialog dlg = new ImportExchangeOptionsDialog(shell.getShell(), null, false, repository);
-                dlg.setBlockOnOpen(true);
-                int ret = dlg.open();
-                if (ret == Window.OK) {
-                    File dir = new File(repository.toString());
-                    File[] fs = dir.listFiles(new FileFilter() {
-
-                        @Override
-                        public boolean accept(File pathname) {
-                            return pathname.getName().endsWith(".xsd");
-                        }
-                    });
-                    if (null == fs || fs.length == 0) {
-                        MessageDialog.openWarning(getShell(), Messages.import_schema_failed, Messages.no_schema_available);
-                        return;
-                    }
-                    for (File file : fs) {
-                        URL url = getSourceURL("file:///" + file.getPath());
-                        addSchema(url, true);
-                    }
-                }
-            }
-
-        });
-
         Button addXSDFromInputDlg = new Button(compositeBtn, SWT.PUSH | SWT.FILL);
         addXSDFromInputDlg.setLayoutData(new GridData(SWT.FILL, SWT.NONE, false, false, 1, 1));
         addXSDFromInputDlg.setText(Messages.AddXsdFromOther);
