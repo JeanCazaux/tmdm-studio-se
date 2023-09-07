@@ -76,11 +76,6 @@ public class MDMImportItemsWizardPage extends ImportItemsWizardPage {
     }
 
     @Override
-    protected boolean isEnableForExchange() {
-        return false;
-    }
-
-    @Override
     protected void createArchiveSelectionArea(Composite selectionArea) {
         super.createArchiveSelectionArea(selectionArea);
     }
