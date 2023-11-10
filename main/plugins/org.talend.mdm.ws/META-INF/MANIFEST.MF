@@ -7,31 +7,11 @@ Bundle-Version: 8.8.8.qualifier
 Require-Bundle: javax.wsdl;bundle-version="1.6.2",
  javax.activation,
  org.eclipse.core.runtime,
- javax.xml.bind,
- javax.xml.ws,
- javax.jws;bundle-version="2.0.0"
+ jakarta.xml.bind,
+ jakarta.xml.ws-api,
+ jakarta.jws-api
 Eclipse-ExtensibleAPI: true
-Bundle-ClassPath: .,
- lib/jakarta.jws-api-2.1.0.jar,
- lib/jakarta.xml.bind-api-2.3.3.jar,
- lib/jakarta.xml.ws-api-2.3.3.jar
 Export-Package: 
- com.amalto.workbench.webservices,
- javax.xml.bind,
- javax.xml.bind.annotation,
- javax.xml.bind.annotation.adapters,
- javax.xml.bind.attachment,
- javax.xml.bind.helpers,
- javax.xml.bind.util,
- javax.xml.soap,
- javax.xml.ws,
- javax.xml.ws.handler,
- javax.xml.ws.handler.soap,
- javax.xml.ws.http,
- javax.xml.ws.soap,
- javax.xml.ws.spi,
- javax.xml.ws.wsaddressing,
- javax.jws,
- javax.jws.soap
+ com.amalto.workbench.webservices
 Bundle-Activator: com.amalto.workbench.ws.MdmwsCEPlugin
 Bundle-ActivationPolicy: lazy

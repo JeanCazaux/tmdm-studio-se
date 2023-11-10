@@ -535,7 +535,7 @@ public class ContentProposalAdapterExtended {
              * Construct an info-popup with the specified parent.
              */
             InfoPopupDialog(Shell parent) {
-                super(parent, PopupDialog.HOVER_SHELLSTYLE, false, false, false, false, null, null);
+                super(parent, PopupDialog.HOVER_SHELLSTYLE, false, false, false, false, false, null, null);
             }
 
             /*
@@ -669,7 +669,7 @@ public class ContentProposalAdapterExtended {
             // On platforms where SWT.ON_TOP overrides SWT.RESIZE, we will live
             // with this.
             // See https://bugs.eclipse.org/bugs/show_bug.cgi?id=126138
-            super(control.getShell(), SWT.RESIZE | SWT.ON_TOP, false, false, false, false, null, infoText);
+            super(control.getShell(), SWT.RESIZE | SWT.ON_TOP, false, false, false, false, false, null, infoText);
             filterText = EMPTY;
             updateIntialFilterText();
             previousFilterText = filterText;

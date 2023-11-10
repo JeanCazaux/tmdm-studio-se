@@ -31,3 +31,4 @@ Export-Package: org.talend.mdm.repository.core.marker,
  org.talend.mdm.repository.ui.markers
 Import-Package: com.amalto.workbench.utils,
  com.amalto.workbench.webservices
+Automatic-Module-Name: org.talend.mdm.repository.validate

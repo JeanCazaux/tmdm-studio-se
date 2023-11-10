@@ -37,3 +37,4 @@ Export-Package: org.talend.mdm.engines.client,
  org.talend.mdm.engines.client.ui.preferences,
  org.talend.mdm.engines.client.ui.wizards
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.talend.mdm.engines.client

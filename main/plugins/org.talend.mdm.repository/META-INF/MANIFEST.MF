@@ -115,3 +115,4 @@ Export-Package: org.talend.mdm.repository.core,
 Import-Package: com.amalto.workbench.webservices,
  org.talend.mdm.webservice
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.talend.mdm.repository

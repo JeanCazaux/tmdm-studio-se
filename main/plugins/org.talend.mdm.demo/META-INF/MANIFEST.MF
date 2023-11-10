@@ -6,3 +6,4 @@ Bundle-Version: 8.8.8.qualifier
 Require-Bundle: org.talend.core.runtime
 Bundle-Localization: plugin
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.talend.mdm.demo

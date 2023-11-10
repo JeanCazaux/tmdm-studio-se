@@ -7,6 +7,7 @@ Fragment-Host: org.talend.designer.routines.mdmprovider
 Require-Bundle: org.talend.testutils,
  org.hamcrest,
  org.eclipse.osgi.services,
- org.apache.commons.lang
+ org.apache.commons.lang,
+ org.junit
 Bundle-ClassPath: .
 Export-Package: routines

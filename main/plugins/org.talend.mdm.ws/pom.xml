@@ -9,35 +9,4 @@
   </parent>
   <artifactId>org.talend.mdm.ws</artifactId>
   <packaging>eclipse-plugin</packaging>
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>2.6</version>
-        <executions>
-          <execution>
-            <id>copy-resources</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${basedir}/lib</outputDirectory>
-              <resources>          
-                <resource>
-                  <directory>${basedir}/../org.talend.mdm.ws.jars/lib</directory>
-					<includes> 
-						<include>jakarta.jws-api-2.1.0.jar</include> 
-						<include>jakarta.xml.ws-api-2.3.3.jar</include> 
-						<include>jakarta.xml.bind-api-2.3.3.jar</include>
-					</includes>
-                  <filtering>false</filtering>
-                </resource>
-              </resources>              
-            </configuration>            
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
 </project>

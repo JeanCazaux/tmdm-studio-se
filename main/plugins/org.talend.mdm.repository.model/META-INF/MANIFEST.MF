@@ -30,3 +30,4 @@ Export-Package: org.talend.mdm.repository.model.mdmmetadata,
  org.talend.mdm.repository.model.mdmserverobject.matchrule.impl,
  org.talend.mdm.repository.model.mdmserverobject.matchrule.util,
  org.talend.mdm.repository.model.mdmserverobject.util
+Automatic-Module-Name: org.talend.mdm.repository.model
