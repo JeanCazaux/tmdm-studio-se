@@ -4,7 +4,7 @@
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/dtdparser121.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/bulkloadclient.jar" sourcepath="/org.talend.mdm.bulkload.client"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/ezmorph-1.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="META-INF/lib/json-20230227.jar"/>
+	<classpathentry exported="true" kind="lib" path="META-INF/lib/json-20231013.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/jakarta-oro-2.0.8.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/z.commons-lang-2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="META-INF/lib/resolver.jar"/>
