@@ -14,6 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="META-INF/lib/jaxws-rt-2.3.0.jar"/>
-	<classpathentry kind="lib" path="META-INF/lib/json-20230227.jar"/>
+	<classpathentry kind="lib" path="META-INF/lib/json-20231013.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

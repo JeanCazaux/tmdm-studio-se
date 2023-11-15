@@ -6,7 +6,7 @@ Bundle-Version: 8.8.8.qualifier
 Bundle-Activator: com.amalto.workbench.MDMWorbenchPlugin
 Bundle-ClassPath: META-INF/lib/bulkloadclient.jar,
  META-INF/lib/jaxws-rt-2.3.0.jar,
- META-INF/lib/json-20230227.jar,
+ META-INF/lib/json-20231013.jar,
  .
 Bundle-Vendor: Talend
 Bundle-Localization: plugin
