@@ -121,7 +121,7 @@
 
       <IMPORT NAME="MDM-Bulkloadclient" MODULE="bulkloadclient.jar" MVN="mvn:org.talend.libraries/bulkloadclient/6.3.0"  REQUIRED="true" />
       <IMPORT NAME="commons-codec-1.15.jar" MODULE="commons-codec-1.15.jar" MVN="mvn:commons-codec/commons-codec/1.15" REQUIRED="true" />
-      <IMPORT NAME="SOAP-logging" MODULE="commons-logging.jar" MVN="mvn:org.talend.libraries/commons-logging/6.1.0"  UrlPath="platform:/base/plugins/org.apache.commons.logging_1.2.0.v20180409-1502.jar" REQUIRED="true" />
+      <IMPORT NAME="SOAP-logging" MODULE="commons-logging-1.2.jar" MVN="mvn:commons-logging/commons-logging/1.2"  UrlPath="platform:/base/plugins/org.apache.commons.logging_1.2.0.v20180409-1502.jar" REQUIRED="true" />
 
                 <IMPORT
                     NAME="httpclient5-5.2.1.jar"
