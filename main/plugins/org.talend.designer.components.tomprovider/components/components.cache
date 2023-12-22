@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component_cache:ComponentsCache xmlns:component_cache="http://www.talend.org/component_cache">
+  <componentEntryMap key="tMDMBulkLoad">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMBulkLoad\tMDMBulkLoad_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="bulkloadclient.jar" nAME="MDM-Bulkloadclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.talend.libraries/bulkloadclient/6.3.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType mODULE="commons-logging-1.2.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.2.0.v20180409-1502.jar" MVN="mvn:commons-logging/commons-logging/1.2"/>
+      <importType mODULE="httpclient5-5.2.1.jar" nAME="httpclient5-5.2.1.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.talend.libraries.apache.http/lib/httpclient5-5.2.1.jar" MVN="mvn:org.apache.httpcomponents.client5/httpclient5/5.2.1"/>
+      <importType mODULE="httpcore5-5.2.jar" nAME="httpcore5-5.2.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.talend.libraries.apache.http/lib/httpcore5-5.2.jar" MVN="mvn:org.apache.httpcomponents.core5/httpcore5/5.2"/>
+      <importType mODULE="httpcore5-h2-5.2.jar" nAME="httpcore5-h2-5.2.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.talend.libraries.apache.http/lib/httpcore5-h2-5.2.jar" MVN="mvn:org.apache.httpcomponents.core5/httpcore5-h2/5.2"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.jar" nAME="javax.annotation-api-1.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3"/>
+      <importType bundleID="" mODULE="jaxb-api-2.3.0.jar" nAME="jaxb-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.bind/jaxb-api/2.3.0"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMOutput">
+    <value originalFamilyName="Talend MDM" pluginExtension="org.talend.designer.fileoutputxml" version="0.102" uriString="\components\tMDMOutput\tMDMOutput_java.xml" pathSource="components" repositoryType="MDM" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <componentNames>tWriteXMLFieldOut</componentNames>
+      <componentNames>tMDMWriteConf</componentNames>
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIREDIF="IS_VIRTUAL_COMPONENT == 'false'" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIREDIF="IS_VIRTUAL_COMPONENT == 'false'" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIREDIF="IS_VIRTUAL_COMPONENT == 'false'" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIREDIF="IS_VIRTUAL_COMPONENT == 'false'" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMReadConf">
+    <value originalFamilyName="Talend MDM" version="0.101" isTechnical="true" uriString="\components\tMDMReadConf\tMDMReadConf_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.1.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-logging-1.1.jar" MVN="mvn:commons-logging/commons-logging/1.1"/>
+      <importType bundleID="" mODULE="mail-1.4.jar" nAME="SOAP-JavaMail" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/mail.jar" MVN="mvn:javax.mail/mail/1.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType mODULE="commons-httpclient-3.1.jar" nAME="SOAP-httpclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-httpclient/commons-httpclient/3.1"/>
+      <importType mODULE="mdm_transaction-1.2.0.jar" nAME="mdm_transaction-1.2.0.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.designer.components.tomprovider/components/tMDMConnection/mdm_transaction-1.2.0.jar" MVN="mvn:org.talend.components.lib/mdm_transaction/1.2.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMCommit">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMCommit\tMDMCommit_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider"/>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMInput">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMInput\tMDMInput_java.xml" pathSource="components" repositoryType="MDM" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <componentNames>tMDMReadConf</componentNames>
+      <componentNames>tExtractXMLField</componentNames>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMSP">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMSP\tMDMSP_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="mail-1.4.jar" nAME="SOAP-JavaMail" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/mail.jar" MVN="mvn:javax.mail/mail/1.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType mODULE="commons-httpclient-3.1.jar" nAME="SOAP-httpclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-httpclient/commons-httpclient/3.1"/>
+      <importType mODULE="mdm_transaction-1.2.0.jar" nAME="mdm_transaction-1.2.0.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.designer.components.tomprovider/components/tMDMConnection/mdm_transaction-1.2.0.jar" MVN="mvn:org.talend.components.lib/mdm_transaction/1.2.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMTriggerOutput">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMTriggerOutput\tMDMTriggerOutput_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType bundleID="" mODULE="dom4j-2.1.3.jar" nAME="DOM4J" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.dom4j/dom4j/2.1.3"/>
+      <importType bundleID="" mODULE="jaxen-1.1.6.jar" nAME="JAXEN_1.1.6" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jaxen/jaxen/1.1.6"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.jar" nAME="javax.annotation-api-1.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3"/>
+      <importType bundleID="" mODULE="jaxb-api-2.3.0.jar" nAME="jaxb-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.bind/jaxb-api/2.3.0"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMViewSearch">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMViewSearch\tMDMViewSearch_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMTriggerInput">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMTriggerInput\tMDMTriggerInput_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType bundleID="" mODULE="dom4j-2.1.3.jar" nAME="DOM4J" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.dom4j/dom4j/2.1.3"/>
+      <importType bundleID="" mODULE="jaxen-1.1.6.jar" nAME="JAXEN_1.1.6" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jaxen/jaxen/1.1.6"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.jar" nAME="javax.annotation-api-1.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3"/>
+      <importType bundleID="" mODULE="jaxb-api-2.3.0.jar" nAME="jaxb-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.bind/jaxb-api/2.3.0"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMConnection">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMConnection\tMDMConnection_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="mail-1.4.jar" nAME="SOAP-JavaMail" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/mail.jar" MVN="mvn:javax.mail/mail/1.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType mODULE="commons-httpclient-3.1.jar" nAME="SOAP-httpclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-httpclient/commons-httpclient/3.1"/>
+      <importType mODULE="mdm_transaction-1.2.0.jar" nAME="mdm_transaction-1.2.0.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.designer.components.tomprovider/components/tMDMConnection/mdm_transaction-1.2.0.jar" MVN="mvn:org.talend.components.lib/mdm_transaction/1.2.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMRollback">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMRollback\tMDMRollback_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider"/>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMClose">
+    <value originalFamilyName="Talend MDM" version="0.102" uriString="\components\tMDMClose\tMDMClose_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider"/>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMDelete">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMDelete\tMDMDelete_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMReceive">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMReceive\tMDMReceive_java.xml" pathSource="components" repositoryType="MDM" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <componentNames>tJava</componentNames>
+      <componentNames>tExtractXMLField</componentNames>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMWriteConf">
+    <value originalFamilyName="Talend MDM" version="0.101" isTechnical="true" uriString="\components\tMDMWriteConf\tMDMWriteConf_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="mail-1.4.jar" nAME="SOAP-JavaMail" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/mail.jar" MVN="mvn:javax.mail/mail/1.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType mODULE="commons-httpclient-3.1.jar" nAME="SOAP-httpclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-httpclient/commons-httpclient/3.1"/>
+      <importType mODULE="mdm_transaction-1.2.0.jar" nAME="mdm_transaction-1.2.0.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.designer.components.tomprovider/components/tMDMConnection/mdm_transaction-1.2.0.jar" MVN="mvn:org.talend.components.lib/mdm_transaction/1.2.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+  <componentEntryMap key="tMDMRouteRecord">
+    <value originalFamilyName="Talend MDM" version="0.101" uriString="\components\tMDMRouteRecord\tMDMRouteRecord_java.xml" pathSource="components" sourceBundleName="org.talend.designer.components.tomprovider" providerId="org.talend.designer.components.tomprovider.TomLocalComponentsProvider">
+      <importType mODULE="mdm_webservice_tomcat.jar" nAME="MDM-WEBSERVICE-TOMCAT" rEQUIREDIF="USE_EXISTING_CONNECTION == 'false'" urlPath="platform:/plugin/org.talend.libraries.mdm.webservice.ee/lib/mdm_webservice_tomcat.jar" MVN="mvn:org.talend.libraries/mdm_webservice_tomcat/6.1.0"/>
+      <importType bundleID="" mODULE="jakarta.xml.soap-api-1.4.2.jar" nAME="jakarta.xml.soap-api-1.4.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.2"/>
+      <importType bundleID="org.apache.servicemix.bundles.wsdl4j" mODULE="wsdl4j-1.6.3.jar" nAME="WSDL4J-1_6_3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:wsdl4j/wsdl4j/1.6.3"/>
+      <importType mODULE="commons-discovery-0.2.jar" nAME="SOAP-discovery" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.common/lib/commons-discovery-0.2.jar" MVN="mvn:commons-discovery/commons-discovery/0.2"/>
+      <importType mODULE="commons-logging-1.0.4.jar" nAME="SOAP-logging" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/base/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar" MVN="mvn:commons-logging/commons-logging/1.0.4"/>
+      <importType bundleID="" mODULE="mail-1.4.jar" nAME="SOAP-JavaMail" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/mail.jar" MVN="mvn:javax.mail/mail/1.4"/>
+      <importType bundleID="" mODULE="activation-1.1.jar" nAME="SOAP-JAF" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.axis2/lib/activation.jar" MVN="mvn:javax.activation/activation/1.1/jar"/>
+      <importType mODULE="commons-httpclient-3.1.jar" nAME="SOAP-httpclient" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-httpclient/commons-httpclient/3.1"/>
+      <importType mODULE="mdm_transaction-1.2.0.jar" nAME="mdm_transaction-1.2.0.jar" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.designer.components.tomprovider/components/tMDMConnection/mdm_transaction-1.2.0.jar" MVN="mvn:org.talend.components.lib/mdm_transaction/1.2.0"/>
+      <importType mODULE="commons-codec-1.15.jar" nAME="commons-codec-1.15.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:commons-codec/commons-codec/1.15"/>
+      <importType bundleID="" mODULE="cxf-core-3.5.5.jar" nAME="cxf-core-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-core/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-soap-3.5.5.jar" nAME="cxf-rt-bindings-soap-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-soap/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-bindings-xml-3.5.5.jar" nAME="cxf-rt-bindings-xml-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-bindings-xml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-databinding-jaxb-3.5.5.jar" nAME="cxf-rt-databinding-jaxb-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.5.5"/>
+      <importType bundleID="" mODULE="xmlschema-core-2.2.4.jar" nAME="xmlschema-core-2.2.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.4"/>
+      <importType bundleID="" mODULE="woodstox-core-6.4.0.jar" nAME="woodstox-core-6.4.0.jar" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:com.fasterxml.woodstox/woodstox-core/6.4.0"/>
+      <importType bundleID="" mODULE="stax2-api-4.1.jar" nAME="stax2-api-4.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.codehaus.woodstox/stax2-api/4.1"/>
+      <importType bundleID="" mODULE="cxf-rt-transports-http-3.5.5.jar" nAME="cxf-rt-transports-http-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-transports-http/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-jaxws-3.5.5.jar" nAME="cxf-rt-frontend-jaxws-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-frontend-simple-3.5.5.jar" nAME="cxf-rt-frontend-simple-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-frontend-simple/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-3.5.5.jar" nAME="cxf-rt-security-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-addr-3.5.5.jar" nAME="cxf-rt-ws-addr-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-addr/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-mex-3.5.5.jar" nAME="cxf-rt-ws-mex-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-mex/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-policy-3.5.5.jar" nAME="cxf-rt-ws-policy-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-policy/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-rm-3.5.5.jar" nAME="cxf-rt-ws-rm-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-rm/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-ws-security-3.5.5.jar" nAME="cxf-rt-ws-security-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-ws-security/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-security-saml-3.5.5.jar" nAME="cxf-rt-security-saml-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-security-saml/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-rt-wsdl-3.5.5.jar" nAME="cxf-rt-wsdl-3.5.5" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.cxf/cxf-rt-wsdl/3.5.5"/>
+      <importType bundleID="" mODULE="cxf-services-sts-core-3.5.5.jar" nAME="cxf-services-sts-core-3.5.5" rEQUIREDIF="" MVN="mvn:org.apache.cxf.services.sts/cxf-services-sts-core/3.5.5"/>
+      <importType bundleID="" mODULE="jakarta.xml.bind-api-2.3.3.jar" nAME="jakarta.xml.bind-api-2.3.3" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3"/>
+      <importType bundleID="" mODULE="jaxb-runtime-2.3.4.jar" nAME="jaxb-runtime-2.3.4" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/jaxb-runtime/2.3.4"/>
+      <importType bundleID="" mODULE="txw2-2.3.2.jar" nAME="txw2-2.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.glassfish.jaxb/txw2/2.3.2"/>
+      <importType bundleID="" mODULE="istack-commons-runtime-3.0.11.jar" nAME="istack-commons-runtime-3.0.11" rEQUIRED="true" rEQUIREDIF="" urlPath="platform:/plugin/org.talend.libraries.apache.cxf/lib/istack-commons-runtime-3.0.11.jar" MVN="mvn:com.sun.istack/istack-commons-runtime/3.0.11"/>
+      <importType bundleID="" mODULE="neethi-3.1.1.jar" nAME="neethi-3.1.1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:org.apache.neethi/neethi/3.1.1"/>
+      <importType bundleID="" mODULE="wss4j-bindings-2.2.4.jar" nAME="wss4j-bindings-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-bindings/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-policy-2.2.4.jar" nAME="wss4j-policy-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-policy/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-common-2.2.4.jar" nAME="wss4j-ws-security-common-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-common/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-dom-2.2.4.jar" nAME="wss4j-ws-security-dom-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-policy-stax-2.2.4.jar" nAME="wss4j-ws-security-policy-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-policy-stax/2.2.4"/>
+      <importType bundleID="" mODULE="wss4j-ws-security-stax-2.2.4.jar" nAME="wss4j-ws-security-stax-2.2.4" rEQUIREDIF="" MVN="mvn:org.apache.wss4j/wss4j-ws-security-stax/2.2.4"/>
+      <importType bundleID="" mODULE="javax.annotation-api-1.3.2.jar" nAME="javax.annotation-api-1.3.2" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.annotation/javax.annotation-api/1.3.2"/>
+      <importType bundleID="" mODULE="jsr181-api-1.0-MR1.jar" nAME="jsr181-api-1.0-MR1" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.jws/jsr181-api/1.0-MR1"/>
+      <importType bundleID="" mODULE="jaxws-api-2.3.0.jar" nAME="jaxws-api-2.3.0" rEQUIRED="true" rEQUIREDIF="" MVN="mvn:javax.xml.ws/jaxws-api/2.3.0"/>
+    </value>
+  </componentEntryMap>
+</component_cache:ComponentsCache>
